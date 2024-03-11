@@ -1,0 +1,143 @@
+body {
+   padding: 0;
+   margin: 0;
+   font-family: 'Roboto', sans-serif;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
+li {
+  list-style-type: none;
+
+}
+
+.container {
+   max-width: 1140px;
+   padding: 0 20px;
+   margin: 0 auto;
+}
+
+.header {
+   margin: 10px 0;
+}
+
+.header__menu {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.menu__list {
+   display: flex;
+   align-items: center;
+}
+
+.menu__list-item{
+   font-size: 15px;
+}
+
+.menu__list-link{
+   padding: 5px 28px;
+}
+
+.menu__list-item:hover{
+   color: orangered;
+}
+
+.menu__list-button{
+   display: flex;
+   padding-left: 20px;
+}
+
+.menu__list-button-link{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 36px;
+   height: 36px;
+   border-radius: 50%;
+   margin-left: 12px;
+   background-color: #f5f2f5;
+}
+
+.menu__list-button-link:hover{
+   background-color: orangered ;
+}
+
+.top {
+   background-image: url(image/top-bg.jpg);
+   background-position: bottom left;
+   background-size: cover;
+   
+}
+
+.blockquote__text {
+   text-align: center;
+   margin: 150px auto;
+   font-size: 20px ;
+   max-width: 400px;
+}
+
+.top__inner {
+   min-height: 500px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: beige;
+}
+
+.tea__card-img img{
+   width: 200px;
+   height: 200px;
+   transition: 0.2s;
+}
+
+.tea__wrapper {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 100px;
+
+}
+
+.tea__title {
+   text-align: center;
+   margin-bottom: 60px;
+}
+
+.tea__card-link:hover img{
+   transform: scale(1.1);
+}
+
+.tea__card-text{
+   text-align: center;
+}
+
+.Img__dark {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.table {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+table {
+   background-color: bisque;
+   font-size: 15px;
+   color: black;
+}
+
+table img {
+     transition: 0.2s;
+}
+
+table img:hover{
+   transform: scale(1.1);
+}

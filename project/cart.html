@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>cart page</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+   <header class="header">
+      <div class="container">
+         <nav class="header__menu">
+            <a class="logo" href="index.html">
+               <img class="logo-img" src="image/logo.png" alt="" width="120" height="110">
+            </a>
+            <ul class="menu__list">
+               <li class="menu__list-item">
+                  <a class="menu__list-link" href="">Чорний</a>
+               </li>
+               <li class="menu__list-item">
+                  <a class="menu__list-link" href="">Зелений</a>
+               </li>
+               <li class="menu__list-item">
+                  <a class="menu__list-link" href="">Білий</a>
+               </li>
+               <li class="menu__list-item">
+                  <a class="menu__list-link" href="">Пуер</a>
+               </li>
+               <li class="menu__list-item">
+                  <a class="menu__list-link" href="">Лісовий</a>
+               </li>
+            </ul>
+            <div class="menu__list-button">
+                  <a class="menu__list-button-link" href="">
+                     <img src="image/cart.svg" alt="">
+                  </a>
+                  <a class="menu__list-button-link" href="">
+                     <img src="image/profile.svg" alt="">
+                  </a>
+               </div>
+         </nav>
+      </div>
+   </header>
+
+   <main>
+      <div class="table">
+         <table border="1" cellpadding="10">
+            <colgroup>
+               <col style="width: 100px">
+            </colgroup>
+            <caption>Price list</caption>
+            <thead>
+               <tr><th>Чай</th><th>Назва</th><th>Ціна</th></tr>
+            </thead>
+            <tbody>
+               <col style="width: 100px">
+               <tr><td><img src="image/black.jpg" alt="" height="70" width="70"></td><td><a href="https://uk.wikipedia.org/wiki/%D0%A7%D0%BE%D1%80%D0%BD%D0%B8%D0%B9_%D1%87%D0%B0%D0%B9" target="TheFrame">Чорний</a></td><td rowspan="5">0.99$</td></tr>
+               <tr><td><img src="image/green.jpg" alt="" height="70" width="70"></td><td><a href="https://uk.wikipedia.org/wiki/%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9_%D1%87%D0%B0%D0%B9" target="TheFrame">Зелений</a></td></tr>
+               <tr><td><img src="image/white.jpg" alt="" height="70" width="70"></td><td><a href="https://uk.wikipedia.org/wiki/%D0%91%D1%96%D0%BB%D0%B8%D0%B9_%D1%87%D0%B0%D0%B9" target="TheFrame">Білий</a></td></tr>
+               <tr><td><img src="image/puerh.jpg" alt="" height="70" width="70"></td><td><a href="https://uk.wikipedia.org/wiki/%D0%9F%D1%83%D0%B5%D1%80" target="TheFrame">Пуер</a></td></tr>
+               <tr><td><img src="image/forest.jpg" alt="" height="70" width="70"></td><td><a href="https://uk.wikipedia.org/wiki/%D0%A2%D1%80%D0%B0%D0%B2%27%D1%8F%D0%BD%D0%B8%D0%B9_%D1%87%D0%B0%D0%B9" target="TheFrame">Лісовий</a></td></tr>
+            </tbody> 
+         </table>
+         <iframe name="TheFrame" scrolling="yes" style="width:500px; height:350px; margin-left:50px; border:ridge 5px"></iframe>
+      </div>
+   </main>
+
+</body>
+</html>
