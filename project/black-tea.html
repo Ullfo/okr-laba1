@@ -8,6 +8,27 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+   <style>
+      
+      /*сусідні*/
+      b + i {
+         font-size: 30px;
+         color: pink;
+      }
+      
+      /*контекстні*/
+      p b {
+         font-size: 50px;
+      }
+
+      /*дочірні*/
+      main > b {
+         color: green;
+      }
+
+   </style>
+
 </head>
 <body>
    <header class="header">
@@ -45,9 +66,21 @@
       </div>
    </header>
    <main>
+
       <div class="Img__dark">
          <img src="image/black.jpg" alt="">
       </div>
+
+
+      <b>додаткова інформація</b>
+
+      <p style="max-width: 100px; margin: auto; margin-bottom: 100px;">
+         <b>Black tea</b>
+         <i>з екстрактом вишні</i>
+         <i style=" text-decoration:underline;">знижка</i>
+         <b>додаткова інформація</b>
+      </p>
+
    </main>
 </body>
 </html>

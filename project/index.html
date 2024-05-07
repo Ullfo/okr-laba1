@@ -8,6 +8,11 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+   <style>
+      body {
+         background-color: blue;
+      }
+   </style>
 </head>
 <body>
    <header class="header">
@@ -16,9 +21,9 @@
             <a class="logo" href="index.html">
                <img class="logo-img" src="image/logo.png" alt="" width="120" height="110">
             </a>
-            <ul class="menu__list">
+            <ul type="1" class="menu__list">
                <li class="menu__list-item">
-                  <a class="menu__list-link" href="">Чорний</a>
+                  <a class="menu__list-link" href="black-tea.html">Чорний</a>
                </li>
                <li class="menu__list-item">
                   <a class="menu__list-link" href="">Зелений</a>
@@ -60,15 +65,21 @@
       </section>
 
       <blockquote class="blockquote">
+         <p class="blockquote__text" style="color: green; font-size: 40px;">
+            "Tea is not just a drink, it's a way of life and a way to connect with our <a href="#link"><font size="5" color="pink">loved</font></a> ones."
+         </p>
          <p class="blockquote__text">
-            "Tea is not just a drink, it's a way of life and a way to connect with our <font size="5" color="pink">loved</font> ones."
+            "Tea is not just a drink, it's a way of life and a way to connect with our <a href="#link"><font size="5" color="pink">loved</font></a> ones."
+         </p>
+         <p id="quote" style="margin-bottom: 300px;">
+            "Tea is not just a drink, it's a way of life and a way to connect with our <a href="#link"><font size="5" color="pink">loved</font></a> ones."
          </p>
       </blockquote>
 
       <section class="slider">
          <div class="container">
-            <h1 class="tea__title">
-               Знайти своє
+            <h1 class="tea__title" id="link">
+               Знайди своє
             </h1>
             <div class="tea__wrapper">
                <div class="tea__card">

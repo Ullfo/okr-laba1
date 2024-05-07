@@ -2,6 +2,7 @@ body {
    padding: 0;
    margin: 0;
    font-family: 'Roboto', sans-serif;
+   background-color: #fff !important;
 }
 
 a {
@@ -10,8 +11,8 @@ a {
 }
 
 li {
-  list-style-type: none;
-
+   list-style-type: none;
+   
 }
 
 .container {
@@ -77,8 +78,13 @@ li {
 .blockquote__text {
    text-align: center;
    margin: 150px auto;
-   font-size: 20px ;
+   font-size: 20px  !important;
    max-width: 400px;
+}
+
+#quote {
+   color: cadetblue;
+   text-align: center;
 }
 
 .top__inner {
