@@ -5,8 +5,128 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta name="author" content="maxim">
    <title>green-tea page</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+   <style>
+    
+    .block {
+        width: 200px;
+        height: 150px;
+        background: burlywood;
+        margin: 10px;
+        padding: 10px;
+        border: 2px solid green;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+ 
+    .float {
+      float: right;
+    }
+
+    .yula:link,
+    .yula:visited {
+      color: pink;
+    }
+
+    .active :active {
+      color: red;
+      text-decoration: underline;
+    }
+
+    .yula:hover {
+      color: greenyellow;
+    }
+
+    p:before {
+      content: "Приготування чаю";
+      color: green;
+      font-size: 20px;
+      font-weight: 900;
+    }
+
+    p::after {
+      content: " (Лу Шушен, XVI століття)";
+      font-size: 10px;
+      font-style: italic;
+    }
+
+    b:first-child {
+      color: goldenrod
+    }
+
+    
+
+    /* Псевдоелемент для першого дочірнього елемента */
+   
+
+    /* Плаваючий блок */
+   
+   </style>
 </head>
 <body>
+   <header class="header">
+      <div class="container">
+         <nav class="header__menu">
+            <a class="logo" href="index.html">
+               <img class="logo-img" src="image/logo.png" alt="" width="120" height="110">
+            </a>
+            <ul class="menu__list">
+               <li class="menu__list-item">
+                  <a class="menu__list-link" href="">Чорний</a>
+               </li>
+               <li class="menu__list-item">
+                  <a class="menu__list-link" href="">Зелений</a>
+               </li>
+               <li class="menu__list-item">
+                  <a class="menu__list-link" href="">Білий</a>
+               </li>
+               <li class="menu__list-item">
+                  <a class="menu__list-link" href="">Пуер</a>
+               </li>
+               <li class="menu__list-item">
+                  <a class="menu__list-link" href="">Лісовий</a>
+               </li>
+            </ul>
+            <div class="menu__list-button">
+                  <a class="menu__list-button-link" href="cart.html">
+                     <img src="image/cart.svg" alt="">
+                  </a>
+                  <a class="menu__list-button-link" href="">
+                     <img src="image/profile.svg" alt="">
+                  </a>
+               </div>
+         </nav>
+      </div>
+   </header>
+   <main>
 
+      <div class="block float">
+        <span>«Якщо вам холодно, чай вас зігріє, якщо вам жарко – чай освіжить, якщо засмучені – втішить, якщо збентежені – заспокоїть.» (Вільям Гладстон)</span>
+        <div style="width: 40px  ; height: 40px; background: red; position: absolute; bottom: 0; right: 0; border-radius: 50%;"></div>
+      </div>
+
+      <div class="block">
+        <span>«Пийте чай повільно і з повагою, як ніби він – вісь, навколо якого обертається Земля: повільно, рівно, не кваплячись в майбутнє.» (Тіч Нат Хан)</span>
+      </div>
+
+    <a class="yula" href="#">Посилання</a>
+    <a class="active" href="#">Посилання active</a>
+
+    <div style="display: flex; justify-content:center; align-items: center; flex-direction: column;">
+      <p style="max-width: 1000px;"> – заняття не з звичайних. Для цього потрібна відповідна людина, яка гідністю своєю дорівнювала би гідності чаю. Така людина повинна володіти душею піднесеного відлюдника, що зберігає в собі красу туманної димки, гірських ключів та могутніх скель.</p>
+
+      <div style=" display: flex; flex-direction: column;">
+         <b>- Заспокоює нервову систему</b>
+         <b>- Прискорює регенерацію клітин</b>
+         <b>- Поліпшує самопочуття</b>
+      </div>
+   </div>
+
+   </main>
 </body>
 </html>
